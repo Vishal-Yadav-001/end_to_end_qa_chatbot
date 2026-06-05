@@ -44,7 +44,7 @@ st.title("End-to-End QA Chatbot with LangSmith and Groq")
 
 ## Sidebar
 st.sidebar.header("Configuration")
-api_key_from_user= st.sidebar.text_input("Enter your Groq API Key", type="password")
+api_key_from_user= st.sidebar.text_input("Enter your Groq API Key", type="password",help="Get you groq api keys from here: https://groq.com/console/api-keys")
 # Dropdown for model
 llm_model = st.sidebar.selectbox("Select LLM Model", ["openai/gpt-oss-120b", "llama-3.3-70b-versatile"])
 # Slider for temperature
