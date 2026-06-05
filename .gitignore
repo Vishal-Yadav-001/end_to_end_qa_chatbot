@@ -1,0 +1,17 @@
+# Virtual environments created by uv
+.venv/
+venv/
+env/
+
+# Python cache files (compiled bytecode)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / Secrets (NEVER commit this)
+.env
+
+# Editor directories (optional, depending on what you use)
+.vscode/
+.idea/
